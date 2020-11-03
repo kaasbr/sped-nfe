@@ -1,4 +1,26 @@
 {
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/kaasbr/sped-da.git"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/kaasbr/sped-gtin.git"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/kaasbr/sped-nfe.git"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/kaasbr/sped-nfse.git"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/kaasbr/sped-common.git"
+        }
+    ],
     "name": "nfephp-org/sped-nfe",
     "type": "library",
     "description": "API para geração e comunicação da NFe e NFCe com as SEFAZ autorizadoras.",
@@ -19,8 +41,8 @@
     ],
     "require": {
         "php" : ">= 7.0",
-        "nfephp-org/sped-common" : "^5.0",
-        "nfephp-org/sped-gtin" : "^1.0",
+        "nfephp-org/sped-common" : "dev-master",
+        "nfephp-org/sped-gtin" : "dev-master",
         "justinrainbow/json-schema": "^5.2",
         "ext-zlib": "*",
         "ext-dom": "*",
